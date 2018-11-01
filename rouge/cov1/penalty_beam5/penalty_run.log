@@ -1,0 +1,648 @@
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.5860, PRED PPL: 1.7968
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0.2 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0.2
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -2.9750, PRED PPL: 19.5902
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0.4 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0.4
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -4.4114, PRED PPL: 82.3868
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0.6 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0.6
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -5.8158, PRED PPL: 335.5572
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0.8 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0.8
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -7.2434, PRED PPL: 1398.8874
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_1.0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 1.0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -8.6948, PRED PPL: 5971.9318
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.4513, PRED PPL: 1.5703
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0.2 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0.2
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -2.4043, PRED PPL: 11.0711
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0.4 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0.4
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -3.8373, PRED PPL: 46.3996
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0.6 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0.6
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -5.2935, PRED PPL: 199.0406
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0.8 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0.8
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -6.7855, PRED PPL: 884.9012
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_1.0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 1.0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -8.2667, PRED PPL: 3891.9723
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.3452, PRED PPL: 1.4123
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0.2 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0.2
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -2.0604, PRED PPL: 7.8492
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0.4 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0.4
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -3.5351, PRED PPL: 34.2979
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0.6 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0.6
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -5.0185, PRED PPL: 151.1915
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0.8 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0.8
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -6.4974, PRED PPL: 663.4428
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_1.0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 1.0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -7.9822, PRED PPL: 2928.3412
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.2607, PRED PPL: 1.2979
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0.2 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0.2
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -1.8717, PRED PPL: 6.4996
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0.4 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0.4
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -3.3395, PRED PPL: 28.2047
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0.6 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0.6
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -4.8308, PRED PPL: 125.3135
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0.8 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0.8
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -6.3335, PRED PPL: 563.1238
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_1.0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 1.0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -7.8438, PRED PPL: 2549.9895
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.1953, PRED PPL: 1.2156
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0.2 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0.2
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -1.7352, PRED PPL: 5.6701
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0.4 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0.4
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -3.2265, PRED PPL: 25.1915
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0.6 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0.6
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -4.7338, PRED PPL: 113.7241
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0.8 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0.8
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -6.2425, PRED PPL: 514.1527
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_1.0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 1.0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -7.7522, PRED PPL: 2326.6926
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.1408, PRED PPL: 1.1512
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0.2 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0.2
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -1.6598, PRED PPL: 5.2581
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0.4 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0.4
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -3.1622, PRED PPL: 23.6229
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0.6 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0.6
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -4.6720, PRED PPL: 106.9148
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0.8 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0.8
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -6.1819, PRED PPL: 483.9124
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484
+python translate.py -model cover1_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_1.0 -beam_size 5 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 1.0
+/home/gyf/work/openNMT-1/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gyf/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gyf/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -7.6890, PRED PPL: 2184.2052
+GOLD AVG SCORE: -2.5763, GOLD PPL: 13.1484

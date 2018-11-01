@@ -1,0 +1,792 @@
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.6640, PRED PPL: 1.9425
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0.2 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0.2
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -3.9219, PRED PPL: 50.4951
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0.4 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0.4
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -6.1947, PRED PPL: 490.1306
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0.6 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0.6
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -8.4225, PRED PPL: 4548.4433
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_0.8 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 0.8
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -10.7068, PRED PPL: 44659.4446
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0_cov_1.0 -length_penalty wu -coverage_penalty wu -alpha 0 -beta 1.0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.0 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -13.0732, PRED PPL: 476033.0149
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.5118, PRED PPL: 1.6682
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0.2 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0.2
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -3.4533, PRED PPL: 31.6052
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0.4 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0.4
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -5.6540, PRED PPL: 285.4238
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0.6 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0.6
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -7.9702, PRED PPL: 2893.5612
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_0.8 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 0.8
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -10.3432, PRED PPL: 31044.3863
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.2_cov_1.0 -length_penalty wu -coverage_penalty wu -alpha 0.2 -beta 1.0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.2 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -12.7292, PRED PPL: 337442.4862
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.3948, PRED PPL: 1.4840
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0.2 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0.2
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -3.0632, PRED PPL: 21.3955
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0.4 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0.4
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -5.3491, PRED PPL: 210.4271
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0.6 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0.6
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -7.7257, PRED PPL: 2265.9243
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_0.8 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 0.8
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -10.1092, PRED PPL: 24566.8457
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.4_cov_1.0 -length_penalty wu -coverage_penalty wu -alpha 0.4 -beta 1.0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.4 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -12.4933, PRED PPL: 266552.8009
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.3043, PRED PPL: 1.3557
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0.2 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0.2
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -2.8103, PRED PPL: 16.6153
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0.4 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0.4
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -5.1739, PRED PPL: 176.6009
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0.6 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0.6
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -7.5590, PRED PPL: 1917.8716
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_0.8 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 0.8
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -9.9432, PRED PPL: 20809.9697
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.6_cov_1.0 -length_penalty wu -coverage_penalty wu -alpha 0.6 -beta 1.0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.6 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -12.3320, PRED PPL: 226848.0846
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.2325, PRED PPL: 1.2618
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0.2 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0.2
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -2.6743, PRED PPL: 14.5025
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0.4 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0.4
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -5.0571, PRED PPL: 157.1342
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0.6 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0.6
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -7.4424, PRED PPL: 1706.8856
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_0.8 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 0.8
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -9.8300, PRED PPL: 18582.5710
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_0.8_cov_1.0 -length_penalty wu -coverage_penalty wu -alpha 0.8 -beta 1.0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+0.8 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -12.2178, PRED PPL: 202352.8547
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.0 beta
+==================================================
+PRED AVG SCORE: -0.1741, PRED PPL: 1.1902
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0.2 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0.2
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.2 beta
+==================================================
+PRED AVG SCORE: -2.5892, PRED PPL: 13.3192
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0.4 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0.4
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.4 beta
+==================================================
+PRED AVG SCORE: -4.9740, PRED PPL: 144.6009
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0.6 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0.6
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.6 beta
+==================================================
+PRED AVG SCORE: -7.3615, PRED PPL: 1574.2522
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_0.8 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 0.8
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+0.8 beta
+==================================================
+PRED AVG SCORE: -9.7470, PRED PPL: 17103.4697
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
+python translate.py -model cover10_lcsts/_acc_*_e30.pt -batch_size 50 -src lcsts/725_source -tgt lcsts/725_target -output penalty/pre.e30_len_1.0_cov_1.0 -length_penalty wu -coverage_penalty wu -alpha 1.0 -beta 1.0
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 9.0.1, however version 10.0.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+/home/gongyifan/work/openNMT-10/onmt/modules/GlobalAttention.py:181: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  align_vectors = self.sm(align.view(batch*targetL, sourceL))
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/nn/modules/container.py:67: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+/home/gongyifan/env/local/lib/python2.7/site-packages/torch/tensor.py:309: UserWarning: other is not broadcastable to self, but they have the same number of elements.  Falling back to deprecated pointwise behavior.
+  return self.add_(other)
+Loading model parameters.
+('average src size', 108, 725)
+==================================================
+5 beam_size
+wu length_penalty
+1.0 alpha
+wu coverage_penalty
+1.0 beta
+==================================================
+PRED AVG SCORE: -12.1334, PRED PPL: 185987.7002
+GOLD AVG SCORE: -2.6950, GOLD PPL: 14.8053
